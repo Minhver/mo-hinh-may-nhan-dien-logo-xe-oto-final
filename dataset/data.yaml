@@ -4,7 +4,7 @@ train: train/images  # Thư mục ảnh để học
 val: val/images      # Thư mục ảnh để kiểm tra
 
 # Số lượng hãng xe (nc = number of classes)
-nc: 11
+nc: 41
 
 # Tên các hãng xe (Lưu ý: Thứ tự phải khớp với lúc các bạn gán nhãn/label)
-names: ['Toyota', 'Honda', 'VinFast', 'Mercedes', 'BMW', 'HUYNDAI', 'MAZDA', 'SUZUKI','MITSUBUSHI','KIA','FORD']
+names: [ 'Honda','220','accord','amaze','awd','breeze','brio','brv','city','civic','crv','ehev','elevate','ephev','fadil','hrv','hybrid','idtec','insipre','ivtec','jazz','lux_a','lux_sa','president','prestige','rs','si','sport_touring', 'stepwpn','touring','typeR','vezel','vf3','vf334','vf5','vf6','vf7','vf8','vf9','vifast','vtec']
