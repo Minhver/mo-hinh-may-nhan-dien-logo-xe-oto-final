@@ -1,10 +1,52 @@
-# Đường dẫn gốc tới thư mục dataset
-path: ./dataset 
-train: train/images  # Thư mục ảnh để học
-val: val/images      # Thư mục ảnh để kiểm tra
-
-# Số lượng hãng xe (nc = number of classes)
+names:
+- '220'
+- accord
+- amaze
+- awd
+- breeze
+- brio
+- brv
+- city
+- civic
+- crv
+- ehev
+- elevate
+- ephev
+- fadil
+- honda
+- hrv
+- hybrid
+- idtec
+- inspire
+- ivtec
+- jazz
+- lux_a
+- lux_sa
+- president
+- prestige
+- rs
+- si
+- sport_touring
+- stepwgn
+- touring
+- typeR
+- vezel
+- vf3
+- vf334
+- vf5
+- vf6
+- vf7
+- vf8
+- vf9
+- vinfast
+- vtec
 nc: 41
-
-# Tên các hãng xe (Lưu ý: Thứ tự phải khớp với lúc các bạn gán nhãn/label)
-names: [ 'Honda','220','accord','amaze','awd','breeze','brio','brv','city','civic','crv','ehev','elevate','ephev','fadil','hrv','hybrid','idtec','insipre','ivtec','jazz','lux_a','lux_sa','president','prestige','rs','si','sport_touring', 'stepwpn','touring','typeR','vezel','vf3','vf334','vf5','vf6','vf7','vf8','vf9','vifast','vtec']
+roboflow:
+  license: CC BY 4.0
+  project: car-logo-r1q5a-6nyh6
+  url: https://universe.roboflow.com/quangminh17s-workspace/car-logo-r1q5a-6nyh6/dataset/1
+  version: 1
+  workspace: quangminh17s-workspace
+test: ../test/images
+train: ../train/images
+val: ../valid/images
