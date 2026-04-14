@@ -19,14 +19,14 @@ Dự án cuối kỳ môn Học máy: Xây dựng mô hình nhận diện các t
 - **Quản lý:** Git/GitHub
 
 ## 📁 Cấu trúc thư mục
-```text
+```text 
 ├── dataset/          # Chứa dữ liệu train/val
 ├── models/           # Chứa file best.pt (weights)
 ├── src/              # Source code chính
 ├── notebooks/        # File train_yolo.ipynb
 └── requirements.txt  # Thư viện cần cài
-
-dataset 
+``` 
+ ## dataset 
 # car logo > 2026-04-06 11:32pm
 https://universe.roboflow.com/quangminh17s-workspace/car-logo-r1q5a-6nyh6
 Provided by a Roboflow user
